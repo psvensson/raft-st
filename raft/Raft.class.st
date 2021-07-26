@@ -1,5 +1,10 @@
 Class {
 	#name : #Raft,
 	#superclass : #Announcer,
-	#category : #raft
+	#category : #'raft-core'
 }
+
+{ #category : #initialization }
+Raft >> initialize [ 
+	super initialize 
+]
